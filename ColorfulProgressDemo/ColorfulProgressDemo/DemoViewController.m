@@ -36,8 +36,8 @@
 - (PercentCircleView *)circleView {
     if (!_circleView) {
         _circleView = [[PercentCircleView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-180)];
-        _circleView.maxRage = 0.9;
-        _circleView.countValue = 738;
+        _circleView.maxRage = 0.0;
+        _circleView.countValue = 0;
 //        [_circleView drawCircleWithMaxRage:0.9 withNumber:430];
     }
     return _circleView;

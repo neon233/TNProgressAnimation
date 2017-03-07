@@ -52,7 +52,6 @@ static float displayValue ;
         [self.layer addSublayer:self.pointLayer];
         
         
-        
     }
     return self;
 }
@@ -152,7 +151,7 @@ static float displayValue ;
     if (!_pointLayer) {
         _pointLayer= [CALayer layer];
         _pointLayer.backgroundColor = [UIColor orangeColor].CGColor;
-        _pointLayer.frame = CGRectMake(0, 0, 10, 10);
+        _pointLayer.frame = CGRectMake(-10, 0, 10, 10);
         _pointLayer.cornerRadius = 5;
     }
     return _pointLayer;
